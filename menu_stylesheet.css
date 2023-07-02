@@ -31,9 +31,11 @@ body{
 
 }
 
-.topLeft a :hover {
-text-decoration: solid;
-text-shadow: #d3d3d3;
+.topLeft a:hover{
+text-decoration: underline;
+/* text-shadow: #d3d3d3; */
+transition: 5s;
+transition-timing-function: ease-in;
 }
 
 .topMid{
