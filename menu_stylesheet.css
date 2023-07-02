@@ -1,0 +1,384 @@
+header{
+    height:11rem ;
+    width:auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+body{
+    width: auto;
+    height: auto;
+    margin:0;
+}
+
+
+.topLeft{
+    height: 80%;
+    width:25%;
+    /* background-color: rgb(255, 4, 0); */
+    display: inline-block;
+    position: relative;
+    bottom:7.9rem;left:1rem
+}
+.topLeft a{
+
+    position: relative;
+    top:50%;
+    padding:1rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+.topLeft a :hover {
+text-decoration: solid;
+text-shadow: #d3d3d3;
+}
+
+.topMid{
+    height: 80%;
+    width:20% ;
+    /* background-color: aqua; */
+    display: inline-block;
+    position: relative;
+    left: 15rem;
+    
+
+}
+.topMid img{
+    height: 100%;
+    width:80% ; 
+    object-fit: contain;
+}
+
+.topRight{
+    height: 80%;
+    width:20% ;
+    /* background-color: rgb(221, 0, 255); */
+    display: inline-block;
+    position: relative;
+    bottom: 7.9rem;left: 30rem;
+    text-align: center;
+}
+.topRight p{
+    position: relative;
+    top:50%;
+    padding:1rem;
+}
+
+
+
+
+.firstSec{
+
+    width: auto;
+    height: 28rem;
+    background-image:url(https://www.thedeliciousbites.com/uploads/b/3a1e53f661e373753ade8f6c6102e28221ecc789a1ad45aa0194b165b6e3fc5f/IMG_3028_1679595277.JPG?width=1600&optimize=medium&height=480&fit=cover&dpr=1.25) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: brightness(65%) */
+}
+
+.firstSec p {
+    color:white;
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    top:5rem;
+    line-height: 1.5em;
+
+}
+
+.secondSec{
+    height: 50rem;
+    width: auto;
+}
+.secondSec h2{
+    text-align: center;
+    
+}
+
+.secondSec img{
+height: 80%;
+width: 100%;
+
+}
+
+.secondSec div{
+    display: inline-block;
+    width:21%;
+    height: 45%;
+    
+}
+
+.no1{
+
+    margin-left: 16%;
+}
+
+
+.no2{
+
+    margin:0 2%
+}
+.no3{
+
+    margin-right:16% ;
+}
+
+
+section div p{
+
+    text-align: center;
+}
+
+
+.thirdSec h3{
+    width: auto;
+    height: 15rem;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height:1.5rem ;
+    margin-bottom: 0;
+}
+
+.thirdSec b{
+    position: relative;
+    top:20% ;
+}
+
+.thirdSec h3 p{
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+
+.no4{
+
+    margin-left: 28%;
+}
+
+
+.no5{
+
+    margin-left:2%;
+    
+}
+
+
+
+.fourthSec{
+    background-color: #f5efef;
+    padding-left: 20rem;
+ }
+
+.fourthSec h2{
+margin-top: 0;
+padding-top: 1rem;
+}
+
+.fourthSec div{
+width: auto;
+height: 5rem;
+
+}
+.fourthSec legend{
+    padding-bottom:1rem ;
+}
+
+
+
+.radio__input{
+    display: none;
+}
+
+.radio__label{
+    text-align: center;
+    display: inline-block;
+    width: 4rem;
+    height: 3rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 1rem;
+    color:black;
+    /* background-color: black; */
+    border-radius: 0.3rem;
+    outline: 1px solid rgb(105, 105, 105);
+    /* border: 0.3rem; */
+    cursor: pointer;
+    margin: 0 1rem;
+    /* position: relative; */
+    /* top: 10rem; */
+}
+
+.radio__label:hover{
+    background-color: rgb(224, 221, 221);
+}
+
+
+.fourthSec button{
+
+    display: block;
+    position: relative;
+    top: 1%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+
+.fifthSec{
+    width:auto;
+    height: 25rem;
+    
+}
+
+.fifthSec div{
+    display: inline-block;
+    width:auto;
+    height: auto;
+
+}
+
+.part1{
+    padding-left: 20rem;
+}
+
+.part2 div{
+display: block;
+padding-left: 3rem;
+height: 2rem;
+
+}
+
+.part2 form{
+    height: 20rem;
+    width: auto;
+}
+
+.part2 input{
+    font-size: 1rem;
+    font-family: "Libre Franklin";
+    border-color: #d3d3d3;
+    border-radius: 0.2rem;
+    border-width: thin;
+    /* cursor: pointer; */
+    
+}
+.part2 button{
+    position: relative;
+    top: 580%;
+    background-color: rgb(121, 121, 121);
+    color: white;
+    padding: 0.5rem 1rem;
+
+}
+.part2 div p{
+    display: block;
+}
+#name{
+/* margin:3.5rem 0; */
+width:27rem;
+height:2rem ;
+position: relative;
+top:190%;
+cursor: pointer;
+
+}
+
+#email{
+    /* margin:5rem 0; */
+    width:27rem;
+    height:2rem ;
+    position: relative;
+    top:240%;
+    cursor: pointer;
+}
+
+
+#message{
+    margin:6rem 0;
+    width:27rem;
+    height:4rem ;  
+}
+
+
+#name:hover{
+    border-color: black;
+}
+#email:hover{
+    border-color: black;
+}
+#message:hover{
+    border-color: black;
+}
+
+.part2 div p{
+position: relative;
+bottom:6rem ;
+color: rgb(133, 133, 133);
+font-family: Libre Franklin;
+font-size: 0.8rem;
+text-align: left;
+}
+
+#message input[type="text"] ::placeholder {
+    position: relative;
+    bottom: 100%;
+}
+
+footer{
+    background-color: #dcdcdc;
+    height: auto;
+}
+
+footer div{
+    display: inline-block;
+    height:150% ;
+    width: 30%;
+    
+}
+
+.fa {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fot1 img{
+    height: 40%;
+    width: 40%;
+    object-fit: contain;
+    text-align: center;
+    position: relative;
+    left: 30%;
+  }
+  .fot1 div{
+    position: relative;
+    top:40%
+  }
+
+
+  .fot2{
+    position: relative;
+    left:13rem;bottom: 4rem;
+    font-size: 1.4rem;
+  }
+
+
+  .fot3{
+    position: relative;
+    left:13rem;bottom: 4rem;
+  }
